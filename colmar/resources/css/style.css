@@ -1,0 +1,601 @@
+3.556rem/* General styling */
+
+html {
+  font-size: 18px; /*sets base font size*/
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+/* header section */
+
+/* regular header */
+
+
+.reg_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.889rem;
+  padding-left: 1.333rem;
+  padding-right: 1.333rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.mobile_nav {
+/* commented out unless screen <870px */
+   display: none;
+ }
+
+.logo {
+  height: 1.778rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 3.333rem;
+}
+
+.logo span {
+  font-size: 1.333rem;
+}
+
+header .colmar {
+  font-weight: bold;
+}
+
+header .academy {
+  font-weight: bold;
+  color: grey;
+}
+
+header nav {
+  text-align: right;
+  margin-right: 1.333rem;
+}
+
+nav span {
+  display: inline-block;
+}
+
+nav span a {
+  text-decoration: none;
+  color: grey;
+  font-size: 1.333rem;
+  padding-right: 0.5556rem;
+}
+
+header nav:hover {
+  color: blue;
+}
+
+/* mobile header */
+
+
+/* main banner section */
+
+.main-banner {
+  align-items: center;
+  height: auto;
+}
+
+.banner-img {
+  width: 60%;
+  padding: 1.778rem 1.333rem;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+.banner-text {
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 1.333rem;
+}
+
+.banner-text h1 {
+  padding-bottom: 1.333rem;
+}
+
+.banner-text h3 {
+  padding-bottom: 1.333rem;
+}
+
+.banner-text span {
+  display: flex;
+  justify-content: center;
+  background-color: #c2cdda;
+  padding-top: 0.44rem;
+  padding-bottom: 0.44rem;
+  text-decoration: none;
+  border-radius: 0.27rem;
+  width: 60%;
+}
+
+.banner-text span a {
+  text-decoration: none;
+  color: #3A404B;
+}
+
+.banner-text a:hover {
+  color: darkblue;
+}
+
+.banner-text a
+/* info section */
+
+.info {
+  height: auto;
+}
+
+.info-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-top: 1.778rem;
+  padding-right: 1.333rem;
+  padding-left: 1.333rem;
+}
+
+.info-left-img img {
+  width: 100%;
+}
+
+.info-left-text {
+  width: 90%;
+}
+
+.info-left-text h2 {
+  padding-top: 1.778rem;
+  padding-bottom: 1.333rem;
+}
+
+.info-left-text .quotation {
+  padding-top: 1.333rem;
+  padding-bottom: 1.778rem;
+}
+
+.info-right {
+  width: 40%;
+  height: auto;
+  padding-left: 0.8889rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.778rem 1.333rem;
+  align-items: center;
+}
+
+
+.info-slot {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: #c7c7c7;
+  margin-bottom: 0.8889rem;
+}
+
+.info-right-img {
+  max-width: 35%;
+}
+
+
+.info-right-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.info-right-img-mobile img {
+  display: none;
+}
+
+.info-right-text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  padding-top: 1.333rem;
+  padding-left: 2rem;
+}
+
+.info-right-text a:hover {
+  color: darkblue;
+}
+
+.info-right-text p {
+  padding-top: 0.4444rem;
+  padding-bottom: 0.4444rem;
+}
+
+.info-right-text a {
+  text-decoration: none;
+  color: #3A404B;
+}
+
+/* section heading */
+
+.section-heading {
+  display: flex;
+  width: 100%;
+  padding-top: 1.778rem;
+  padding-bottom: 1.778rem;
+  justify-content: center;
+}
+
+
+/* learning section */
+
+.learning {
+  background-color: lightgrey;
+}
+
+.learning-slots {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.learning-slot {
+  height: auto;
+  width: 31%;
+  box-sizing: border-box;
+  margin-bottom: 1.778rem;
+  background-color: white;
+}
+
+.learning-slot-img {
+  height: auto;
+  width: 100%;
+}
+
+.learning-slot-img img {
+  width: 100%;
+}
+
+
+.learning-slot-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding-top: 1.333rem;
+  padding-left: 0.8889rem;
+}
+
+
+.learning-slot-text a {
+  text-decoration: none;
+  color: grey;
+}
+
+.learning-slot-text span {
+  padding-top: 0.4444rem;
+  padding-bottom: 0.4444rem;
+}
+
+.learning-slot-text p {
+  padding-bottom: 1.333rem;
+}
+
+.learning-slot-text a:hover {
+  color: darkblue;
+}
+
+/* exhibition section */
+
+.exhibit {
+  width: 100%;
+}
+
+.exhibit-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 1.333rem;
+}
+
+.exhibit-video {
+  width: 100%;
+  height: auto;
+}
+
+.exhibit-video video {
+  width: 100%;
+}
+
+.exhibit-right {
+  width: 40%;
+  height: auto;
+  margin-left: 1.333rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.exhibit-slot {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.8889rem;
+}
+
+.exhibit-right-img {
+  height: auto;
+  max-width: 35%;
+}
+
+.exhibit-right-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.exhibit-right-text {
+  display: flex;
+  width: 45%;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.exhibit-right-text p {
+  padding-top: 0.4444rem;
+  padding-bottom: 0.4444rem;
+}
+
+.exhibit-left-text {
+  width: 90%;
+}
+
+.exhibit-left-text h2 {
+  padding-top: 1.778rem;
+  padding-bottom: 1.333rem;
+}
+
+.exhibit-left-text p {
+  margin-bottom: 1.778rem;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.333rem;
+  padding-right: 1.333rem;
+  padding-top: 0.8889rem;
+}
+
+
+
+.copyright {
+  display: flex;
+  align-items: center;
+}
+
+footer nav {
+  text-align: right;
+  padding-right: 1.333rem;
+}
+
+
+/* media queries for mobile screens */
+
+@media only screen and (max-width: 870px) {
+
+p {
+  font-size: 1.444rem;
+}
+
+h3 {
+  font-size: 1.667rem;
+}
+
+h4 {
+  font-size: 1.667rem;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+}
+
+/*header */
+.reg_nav {
+  display: none;
+}
+
+.mobile_nav {
+  display: flex;
+  height: 3.556rem;
+  background-color: #c2cdda;
+}
+
+.mobile_nav span {
+  display: inline;
+}
+
+.mobile_nav nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+/* main banner section */
+
+.main-banner {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.banner-img {
+  width: 100%;
+  padding: 0;
+}
+
+.banner-text {
+  width: 100%;
+  padding: 0.8889rem;
+  text-align: left;
+}
+
+.banner-text span {
+  align-items: center;
+  width: 100%;
+}
+
+
+
+/* info-section */
+
+.info-left {
+  display: none;
+}
+
+.info-right {
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+
+.info-slot {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.8889rem;
+  background-color: white;
+}
+
+.info-right-img {
+  display: none;
+}
+
+.info-right-img-mobile img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.info-right-text {
+  width: 100%;
+  padding-left: 0.8889rem;
+  text-align: center;
+}
+
+/* section heading */
+
+.section-heading {
+  width: 100%;
+  margin-bottom: 0.8889rem;
+  font-weight: bold;
+}
+
+/* learning section */
+
+.learning {
+  background-color: white;
+  margin-bottom: 1.778rem;
+}
+
+.learning-slots {
+  display: flex;
+  flex-direction: column;
+}
+
+.learning-slot {
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.learning-slot-img {
+  display: none;
+}
+
+
+.learning-slot h4 {
+  padding: 0.8889rem 0 1.333rem 0.8889rem;
+  margin-bottom: 0.4444rem;
+  font-size: 1.5rem;
+}
+
+.learning-slot-text span {
+  display: none;
+}
+
+.learning-slot-text p {
+  display: none;
+}
+
+/* exhibition section */
+
+.exhibit {
+  margin-bottom: 1.333rem;
+}
+
+.exhibit-left {
+  width: 100%;
+}
+
+.exhibit-left-text {
+  display: none;
+}
+
+.exhibit-right {
+  display: none;
+}
+
+
+
+
+
+/* mobile footer */
+
+footer nav {
+  display: none;
+}
